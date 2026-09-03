@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a505889f-3339-49ab-bf63-8281f1713102" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src" beforeDir="false" afterPath="$PROJECT_DIR$/src" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/lpa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/lpa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/lpa/MainQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/lpa/MainQuery.java" afterDir="false" />
     </list>
@@ -45,12 +46,12 @@
     &quot;assignee&quot;: &quot;csamaan&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/csamaan/JPA&quot;,
-    &quot;accountId&quot;: &quot;3c92bc49-e3c6-47b9-8496-82ceb060934a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/csamaan/JPA.git",
+    "accountId": "3c92bc49-e3c6-47b9-8496-82ceb060934a"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
