@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeSet;
 
-
 @Entity
 @Table(name = "artists")
 public class Artist {
@@ -26,15 +25,11 @@ public class Artist {
     public Artist(){
     }
 
-
     public Artist(int artistId, String artistName){
         this.artistId = artistId;
         this.artistName = artistName;
     }
 
-    public List<Album> getAlbums() {
-        return albums;
-    }
     public Artist(String artistName) {
         this.artistName = artistName;
     }
@@ -43,10 +38,19 @@ public class Artist {
         return artistId;
     }
 
+    // Standard getter for the artist's name
+    public String getArtistName() {
+        return artistName;
+    }
+
+    public List<Album> getAlbums() {
+        return albums;
+    }
 
     public void addAlbum(String albumName){
         albums.add(new Album(albumName));
     }
+
     @Override
     public String toString() {
         return "Artist{" +
@@ -55,11 +59,10 @@ public class Artist {
                 ", albums=" + albums +
                 '}';
     }
+
     public void removeDuplicates(){
         var set = new TreeSet<>(albums);
         albums.clear();
         albums.addAll(set);
     }
-
-
 }
